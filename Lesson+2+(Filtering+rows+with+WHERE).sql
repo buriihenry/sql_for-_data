@@ -55,6 +55,10 @@ FROM TRAN
 WHERE TRAN_BUSN_CATG = 'LEISURE'
 ;
 
+select *
+from tran
+where TRAN_BUSN_CATG ="Leisure"
+;
 
 
 -- 3. Find a list of all transfers
