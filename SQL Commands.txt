@@ -1,0 +1,4 @@
+
+To select two columns of a table "Customers"
+
+SELECT CustomerName,City FROM Customers;
