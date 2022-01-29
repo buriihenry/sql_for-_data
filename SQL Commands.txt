@@ -39,20 +39,46 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE condition1 OR condition2 OR condition3 ...;
 
+NOT Syntax
 
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
 
+ 7. SELECT * FROM Customers
+    WHERE Country='Germany' AND City='Berlin';
 
+ 8. SELECT * FROM Customers
+    WHERE City='Berlin' OR City='Munchen';
 
+ 9. SELECT * FROM Customers
+    WHERE Country='Germany' OR Country='Spain';
 
+ 10.SELECT * FROM Customers
+    WHERE Country='Germany' AND (City='Berlin' OR City='München');
 
+ORDER BY
 
+ 11.SELECT * FROM Customers
+    ORDER BY Country, CustomerName;
 
+ 12.SELECT * FROM Customers
+    ORDER BY Country DESC;
+ 13.SELECT * FROM Customers
+    ORDER BY Country ASC, CustomerName DESC;
 
+Insert INTO
+ 14.INSERT INTO table_name
+    VALUES (value1, value2, value3, ...);
 
-
-
-
-
+Check for null values:
+  15.SELECT column_names
+     table_name
+     WHERE column_name IS NULL;
+     
+     SELECT CustomerName, ContactName, Address
+     FROM Customers
+     WHERE Address IS NULL;	
 
 
 
