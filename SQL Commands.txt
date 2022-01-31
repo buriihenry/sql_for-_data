@@ -1,3 +1,5 @@
+Top SQL Commands 
+
 
 I will be working with table name called "Customers"
 
@@ -79,6 +81,48 @@ Check for null values:
      SELECT CustomerName, ContactName, Address
      FROM Customers
      WHERE Address IS NULL;	
+
+UPDATE Table
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+UPDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico';
+
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+
+SQL DELETE
+
+DELETE FROM table_name WHERE condition;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
