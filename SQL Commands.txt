@@ -78,28 +78,42 @@ Check for null values:
      table_name
      WHERE column_name IS NULL;
      
-     SELECT CustomerName, ContactName, Address
+   16.SELECT CustomerName, ContactName, Address
      FROM Customers
      WHERE Address IS NULL;	
 
 UPDATE Table
 
-UPDATE table_name
-SET column1 = value1, column2 = value2, ...
-WHERE condition;
+17.UPDATE table_name
+   SET column1 = value1, column2 = value2, ...
+   WHERE condition;
 
-UPDATE Customers
-SET ContactName='Juan'
-WHERE Country='Mexico';
+18.UPDATE Customers
+   SET ContactName='Juan'
+   WHERE Country='Mexico';
 
-UPDATE Customers
-SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
-WHERE CustomerID = 1;
+19.UPDATE Customers
+   SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+   WHERE CustomerID = 1;
 
 SQL DELETE
 
-DELETE FROM table_name WHERE condition;
+20.DELETE FROM table_name WHERE condition;
 
+21.SELECT COUNT(ProductID)
+   FROM Products;
+
+22.SELECT * FROM Customers
+   LIMIT 3;
+
+24.SELECT MIN(Price) AS SmallestPrice
+   FROM Products;
+
+25.SELECT * FROM Customers
+   WHERE Country IN ('Germany', 'France', 'UK');
+
+26.SELECT * FROM Customers
+   WHERE Country NOT IN ('Germany', 'France', 'UK');
 
 
 
