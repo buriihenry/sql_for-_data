@@ -1,4 +1,4 @@
-A look at the top SQL Commands that a data analyst MUST know.
+A look at top SQL Commands that a Data analyst/Scientist MUST know.
 
 Refer to the SQL top Commands.
 
