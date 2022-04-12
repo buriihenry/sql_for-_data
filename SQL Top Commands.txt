@@ -1,4 +1,4 @@
-Top 25 SQL Cheat Commands 
+Top 25 SQL Cheat Commands for a Data Analyst/Data Scientist 
 
 
 I will be working with table name called "Customers"
