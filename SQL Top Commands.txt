@@ -1,4 +1,4 @@
-Top SQL Cheat Commands 
+Top 25 SQL Cheat Commands 
 
 
 I will be working with table name called "Customers"
